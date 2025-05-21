@@ -1,0 +1,142 @@
+{
+  "name": "Hugh Palin",
+  "label": "Computer Engineering Student @ UIUC",
+  "image_path": "img/default-image.png",
+  "contact": {
+    "email": "hughapalin@gmail.com",
+    "phone": "224-300-9828",
+    "location": "Champaign, IL, USA"
+  },
+  "summary": "I'm a UIUC computer engineering student focused on embedded systems, software development, and computational science. Experienced in high-performance computing, database development, and PCB design.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/PolenH",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/hugh-palin-0624aa239/",
+      "svg_path": "img/linkedin.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Northwestern University",
+      "position": "Undergraduate Research Assistant",
+      "url": "",
+      "start_date": "May 2024",
+      "end_date": "Aug. 2024",
+      "summary": "Conducted research to identify enzymatic pathways to produce value-added products using computational modeling.",
+      "highlights": [
+        "Automated molecular structure generation with Python, reducing manual input by 99%",
+        "Integrated Python workflow with machine learning models",
+        "Simulated enzyme-substrate interactions using HPC and QM/MM techniques"
+      ]
+    },
+    {
+      "company": "SC Johnson & Son, Inc.",
+      "position": "Database Intern",
+      "url": "",
+      "start_date": "May 2023",
+      "end_date": "Aug. 2023",
+      "summary": "Modernized internal database systems and improved searchability of archived reports.",
+      "highlights": [
+        "Digitized paper-based reports using Python for automation",
+        "Enhanced full-text search using SQL and metadata indexing"
+      ]
+    },
+    {
+      "company": "Liquid Rocketry at Illinois",
+      "position": "Electronics & Testing Team Member",
+      "url": "",
+      "start_date": "Jan. 2025",
+      "end_date": "Present",
+      "summary": "Worked on embedded systems for rocket test stands and environmental hardware.",
+      "highlights": [
+        "Enabled real-time TCP data logging via Raspberry Pi",
+        "Designed PCBs in KiCAD and implemented durable soldering practices"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Shell Shockers",
+      "summary": "Turn-based tank game on an FPGA inspired by Shell Shock Live.",
+      "url": "",
+      "highlights": [
+        "Built VGA interface using BRAM and custom controller modules",
+        "Handled keyboard input with MicroBlaze processor via SPI and USB",
+        "Displayed input using UART protocol to external screen"
+      ],
+      "images": []
+    },
+    {
+      "title": "Convolutional Neural Network",
+      "summary": "Built LeNet-5 based CNN using C and GPU acceleration.",
+      "url": "",
+      "highlights": [
+        "Implemented forward pass of CNN for handwritten digit recognition",
+        "Used cuBLAS and shared memory tiling for speedup on A40 GPU"
+      ],
+      "images": []
+    },
+    {
+      "title": "PDB-Pal",
+      "summary": "Python tools to configure PDB files for simulations.",
+      "url": "",
+      "highlights": [
+        "Automated simulation dataset generation on HPC cluster",
+        "Improved MM accuracy and minimized QM simulation errors"
+      ],
+      "images": []
+    }
+  ],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "location": "Champaign, IL",
+      "url": "https://illinois.edu",
+      "degrees": [
+        "B.S in Computer Engineering",
+        "Minor in Business"
+      ],
+      "honors": [],
+      "gpa_cumulative": "3.56",
+      "gpa_major": "",
+      "graduation_date": "May 2026"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C / C++ / Python",
+      "proficiency": 95,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Embedded Systems (SystemVerilog, VHDL, Assembly)",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "HPC / CUDA / Parallel Programming",
+      "proficiency": 85,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Database / SQL / Automation",
+      "proficiency": 80,
+      "proficiency_label": "Proficient"
+    }
+  ],
+  "interests": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "references": []
+}
