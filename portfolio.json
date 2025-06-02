@@ -7,7 +7,7 @@
     "phone": "224-300-9828",
     "location": "Champaign, IL, USA"
   },
-  "summary": "I'm a UIUC computer engineering student focused on embedded systems, software development, and computational science. Experienced in high-performance computing, database development, and PCB design.",
+  "summary": "I'm a UIUC computer engineering student focused on embedded systems and software development. Experienced in high-performance computing, database development, and PCB design.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -28,11 +28,10 @@
       "url": "",
       "start_date": "May 2024",
       "end_date": "Aug. 2024",
-      "summary": "Conducted research to identify enzymatic pathways to produce value-added products using computational modeling.",
       "highlights": [
-        "Automated molecular structure generation with Python, reducing manual input by 99%",
-        "Integrated Python workflow with machine learning models",
-        "Simulated enzyme-substrate interactions using HPC and QM/MM techniques"
+        "Conducted research focused on identifying pathways to catalyze reactions yielding value-added products, such as pharmaceuticals or biofuels. Leveraged computational modeling to evaluate the feasibility of reactions",
+        "Designed a Python workflow to automate the generation of molecular structures for simulating enzymatic reactions, reducing manual input by 99%. Ensured seamless integration with downstream machine learning models",
+        "Leveraged high-performance computing to conduct large-scale enzyme-substrate interaction simulations, using a combination of QM and MM techniques to optimize computational runtime while preserving accuracy in results"
       ]
     },
     {
@@ -41,10 +40,9 @@
       "url": "",
       "start_date": "May 2023",
       "end_date": "Aug. 2023",
-      "summary": "Modernized internal database systems and improved searchability of archived reports.",
       "highlights": [
-        "Digitized paper-based reports using Python for automation",
-        "Enhanced full-text search using SQL and metadata indexing"
+        "Developed a digital cataloging system to transition paper-based reports into a structured, searchable database, leveraging Python for data extraction and automation to enhance accessibility and visualization",
+        "Optimized and updated a full-text search database using SQL and metadata indexing, enabling keyword-based document retrieval with optimized query performance"
       ]
     },
     {
@@ -53,42 +51,39 @@
       "url": "",
       "start_date": "Jan. 2025",
       "end_date": "Present",
-      "summary": "Worked on embedded systems for rocket test stands and environmental hardware.",
       "highlights": [
-        "Enabled real-time TCP data logging via Raspberry Pi",
-        "Designed PCBs in KiCAD and implemented durable soldering practices"
+        "Validated a Python script that serializes data via TCP from a Raspberry Pi to our host device, enabling seamless real-time communication with our test stand during hot fires. Logging data for accurate performance analysis",
+        "Developed custom PCB designs using KiCAD and applied soldering techniques to ensure long-term reliability and durability in harsh environmental conditions, including temperature extremes and vibration"
       ]
     }
   ],
   "projects": [
     {
       "title": "Shell Shockers",
-      "summary": "Turn-based tank game on an FPGA inspired by Shell Shock Live.",
       "url": "",
       "highlights": [
-        "Built VGA interface using BRAM and custom controller modules",
-        "Handled keyboard input with MicroBlaze processor via SPI and USB",
-        "Displayed input using UART protocol to external screen"
+        "Designed a turn-based tank game inspired by Shell Shock Live on an FPGA, incorporating an interactive menu, randomized wind patterns, real-time scorekeeping, and physics-based projectile motion ",
+        "Developed a high-performance VGA-based graphical interface leveraging BRAM for efficient color storage and custom modules for precise VGA controller programming, allowing reuse of sprites",
+        "Integrated a softcore MicroBlaze processor for USB keyboard input via SPI communication, enabling responsive and intuitive game control, using the MAX3421E USB peripheral controller to take in keyboard inputs",
+        "Utilized the UART protocol to asynchronously transmit keycodes to the computer, enabling the display of inputs on the screen"
       ],
       "images": []
     },
     {
       "title": "Convolutional Neural Network",
-      "summary": "Built LeNet-5 based CNN using C and GPU acceleration.",
       "url": "",
       "highlights": [
-        "Implemented forward pass of CNN for handwritten digit recognition",
-        "Used cuBLAS and shared memory tiling for speedup on A40 GPU"
+        "Developed and implemented the forward propagation of a CNN based on the LeNet-5 architecture for accurate recognition of hand-written digits, employing advanced machine learning techniques",
+        "Significantly enhance training and testing speeds, using parallel programming techniques on an A40 GPU such as cuBLAS and matrix multiply with shared memory tiling"
       ],
       "images": []
     },
     {
       "title": "PDB-Pal",
-      "summary": "Python tools to configure PDB files for simulations.",
       "url": "",
       "highlights": [
-        "Automated simulation dataset generation on HPC cluster",
-        "Improved MM accuracy and minimized QM simulation errors"
+        "Developed internal tools and Python functions to rapidly configure PDB files for simulations.",
+        "Automated the generation of large datasets using molecular mechanics on high-performance computers, enhancing accuracy and minimizing errors in quantum mechanics simulations"
       ],
       "images": []
     }
@@ -104,7 +99,7 @@
         "Minor in Business"
       ],
       "honors": [],
-      "gpa_cumulative": "3.56",
+      "gpa_cumulative": "3.61",
       "gpa_major": "",
       "graduation_date": "May 2026"
     }
@@ -121,22 +116,12 @@
       "proficiency_label": "Advanced"
     },
     {
-      "name": "HPC / CUDA / Parallel Programming",
-      "proficiency": 85,
-      "proficiency_label": "Proficient"
-    },
-    {
       "name": "Database / SQL / Automation",
       "proficiency": 80,
       "proficiency_label": "Proficient"
     }
   ],
   "interests": [],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native Speaker"
-    }
-  ],
+  "languages": [],
   "references": []
 }
