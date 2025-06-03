@@ -16,6 +16,28 @@
 
 <!-- Web app manifest for Progressive Web Apps -->
 <link rel="manifest" href="/site.webmanifest">
+
+<style>
+/* Quick flex layout for project section */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.project-details {
+  flex: 1 1 300px;
+}
+.project-image {
+  flex: 0 0 300px;
+}
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+}
+</style>
+
 </head>
 <body>
 <header class="page-header">
@@ -29,14 +51,27 @@
   <div class="container">
     <main>
       <h2>Project Overview</h2>
-      <ul>
-        <li>Designed a turn-based tank game inspired by Shell Shock Live on an FPGA</li>
-        <li>Interactive menu, randomized wind patterns, real-time scorekeeping, and physics-based projectile motion</li>
-        <li>High-performance VGA graphical interface using BRAM and precise VGA controller programming</li>
-        <li>Softcore MicroBlaze processor for USB keyboard input via SPI communication (MAX3421E USB peripheral controller)</li>
-        <li>UART protocol for asynchronous keycode transmission</li>
-      </ul>
-      <a href="index.html">← Back to Portfolio</a>
+      <div class="project-container">
+        <div class="project-details">
+          <ul>
+            <li>Designed a turn-based tank game inspired by Shell Shock Live on an FPGA</li>
+            <li>Interactive menu, randomized wind patterns, real-time scorekeeping, and physics-based projectile motion</li>
+            <li>High-performance VGA graphical interface using BRAM and precise VGA controller programming</li>
+            <li>Softcore MicroBlaze processor for USB keyboard input via SPI communication (MAX3421E USB peripheral controller)</li>
+            <li>UART protocol for asynchronous keycode transmission</li>
+          </ul>
+          <p>
+            <a href="mailto:hughapalin@gmail.com?subject=Requesting Access to Shell Shockers Repository">Request Access to Repository</a>
+          </p>
+          <br>
+          <p>
+            <a href="index.html">← Back to Portfolio</a>
+          </p>
+        </div>
+        <div class="project-image">
+          <img src="img/Shellgitlan.png" alt="Shell Shockers GitHub Language Breakdown">
+        </div>
+      </div>
     </main>
   </div>
 </div>
