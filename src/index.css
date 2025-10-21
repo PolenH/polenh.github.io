@@ -126,4 +126,8 @@ All colors MUST be HSL.
   .gradient-border {
     border-image: var(--gradient-primary) 1;
   }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
