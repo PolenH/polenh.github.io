@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 animate-pulse" style={{ animationDuration: '8s' }} />
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        <h1 className="text-6xl md:text-8xl font-bold mb-10 gradient-text animate-in fade-in slide-in-from-bottom-4 duration-1000">
           Hugh Palin
         </h1>
         
