@@ -1,7 +1,8 @@
-import { Mail, Linkedin, Github, ExternalLink } from "lucide-react";
+import { Mail, Linkedin, Github, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 animate-pulse" style={{ animationDuration: '8s' }} />
@@ -41,10 +42,10 @@ const Hero = () => {
             </Button>
           </a>
           
-          <a href="https://hughpalin.com" target="_blank" rel="noopener noreferrer">
+          <a href={resumeUrl} download>
             <Button variant="secondary" size="lg" className="gap-2">
-              <ExternalLink className="w-5 h-5" />
-              Website
+              <FileDown className="w-5 h-5" />
+              Download Resume
             </Button>
           </a>
         </div>
