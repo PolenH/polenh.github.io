@@ -6,6 +6,31 @@ import { useState, useRef } from "react";
 
 const projects = [
   {
+    title: "Suction Sense",
+    period: "Aug. 2025 – Present",
+    tech: ["C++", "Python"],
+    description: [
+      "Developed system to detect excess OR suction use—cutting waste, wear, and saving hospitals thousands yearly.",
+      "Developed ESP32 embedded firmware to process sensor data and transmit telemetry via MQTT to a Raspberry Pi.",
+      "Built a C++ web application using Crow and SQLite to visualize real-time data with a responsive touchscreen.",
+      "Designed a PCB integrating sensors, battery management system, and dual power inputs for continuous operation.",
+      "Implemented data collection and verification ensuring ≥ 99% reliability in telemetry and ≤ 2s UI refresh rate."
+    ]
+  },
+  {
+    title: "Android Weather App",
+    period: "Aug. 2025 – Present",
+    tech: ["Java", "Android Studio", "SQLite", "Gemini API"],
+    description: [
+      "Built a full-stack Android app with user authentication, dynamic UI customization, and persistent state storage.",
+      "Implemented login with Android AccountManager for secure authentication and personalized user sessions.",
+      "Built a Content Provider–based SQLite database for CRUD operations to manage user-specific city locations.",
+      "Integrated LLM-driven UI themes using the Gemini API to dynamically generate color schemes from text input.",
+      "Collaborated within an Agile team using GitHub for commits, issue tracking, and weekly progress documentation.",
+      "Deployed and tested on an Android emulator (API 29, Pixel 3a) to validate reliability and multi-user functionality."
+    ]
+  },
+  {
     title: "Custom RISC-V Operating System",
     period: "Mar. 2025 – May. 2025",
     tech: ["RISC-V", "C"],

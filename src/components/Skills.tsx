@@ -16,7 +16,7 @@ const skillCategories = [
   {
     title: "Data Tools & Libraries",
     icon: Database,
-    skills: ["Microsoft Excel", "ChimeraX", "Tensorflow", "Keras", "NumPy", "Pandas", "Scikit", "Matplotlib"]
+    skills: ["Microsoft Excel", "ChimeraX", "React", "Tensorflow", "Keras", "NumPy", "Pandas", "Scikit", "Matplotlib"]
   }
 ];
 

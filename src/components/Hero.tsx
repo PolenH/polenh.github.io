@@ -1,14 +1,14 @@
-import { Mail, Linkedin, Github, FileDown } from "lucide-react";
+import { Mail, Linkedin, Github, FileDown, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-20 pb-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10 animate-pulse" style={{ animationDuration: '8s' }} />
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h1 className="text-6xl md:text-8xl font-bold mb-10 gradient-text animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        <h1 className="text-6xl md:text-8xl font-bold mb-10 gradient-text leading-tight md:leading-[1.1] animate-in fade-in slide-in-from-bottom-4 duration-1000">
           Hugh Palin
         </h1>
         
@@ -46,6 +46,13 @@ const Hero = () => {
             <Button variant="secondary" size="lg" className="gap-2">
               <FileDown className="w-5 h-5" />
               Download Resume
+            </Button>
+          </a>
+          
+          <a href="/#/about">
+            <Button variant="secondary" size="lg" className="gap-2">
+              <BookOpen className="w-5 h-5" />
+              About Me
             </Button>
           </a>
         </div>

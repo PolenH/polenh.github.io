@@ -26,7 +26,7 @@ const experiences = [
     ]
   },
   {
-    title: "Database Intern",
+    title: "Database Engineer Intern",
     company: "SC Johnson & Son, Inc.",
     location: "Racine, WI",
     period: "May 2023 – Aug. 2023",
